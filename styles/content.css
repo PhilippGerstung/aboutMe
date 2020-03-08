@@ -28,7 +28,7 @@
     top: 0;
     bottom: 0;
     left: 50%;
-    margin-left: -3px;
+    margin-left: 0px;
   }
   
   /* Container around content */
@@ -56,6 +56,7 @@
   /* Place the container to the left */
   .timeline-left {
     left: 0;
+    margin-left: -73px;
   }
   
   /* Place the container to the right */
@@ -134,5 +135,9 @@
     /* Make all right containers behave like the left ones */
     .timeline-right {
     left: 0%;
+    }
+
+    .timeline-left{
+      margin-left: 0;
     }
   }

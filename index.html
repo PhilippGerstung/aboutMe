@@ -11,20 +11,12 @@
         <link rel="stylesheet" href="styles/header.css" />
         <link rel="stylesheet" href="styles/accordion.css" />
 
-        <script src="scripts/accordion.js"></script>
         
-        <!-- JQuery-->
-        <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
 
         <!-- Bootstrap -->
         <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+        <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous"> -->
 
-        <!-- Optional theme -->
-        <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous"> -->
-
-        <!-- Latest compiled and minified JavaScript -->
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
     </head>
     <body>
         <div class="hidden">There are no easter eggs. ;)</div>
@@ -112,76 +104,59 @@
             <div class="placeholder">
                 <h1>Studienarbeiten</h1>
                 <div class="section-content">
-                    <div class="accordion" id="accordionExample">
-                        <div class="card">
-                          <div class="card-header" id="headingTwo">
-                            <h2 class="mb-0">
-                              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                Bachelorarbeit (2017) - Dürr Systems AG, Abteilung: Smart Data Analytics
-                              </button>
-                            </h2>
-                          </div>
-                          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                            <div class="card-body">
-                                <b>Titel</b> <br>
-                                Untersuchung von Konzepten zur selbstlernenden Fehlerdiagnose am Beispiel einer verfahrenstechnischen Anlage
-                                <br>
-                                <br>
-                                <b>Kurzbeschreibung</b> <br>
-                                In dieser Bachelorarbeit werden Modelle zur automatisierten Erkennung von Fehlern in verfahrenstechnischen Anlagen entwickelt und an Beispielprozessen getestet. Für die betrachtete
-                                Anwendung werden ein Entscheidungsbaum, ein Random Forest und ein Neuronales Netz zur
-                                Fehlererkennung eingesetzt und hinsichtlich ihrer Genauigkeit und Effizienz bewertet. Grundlage der betrachteten maschinellen Lernverfahren sind historische Messdaten, welche die zu
-                                erkennenden Fehler beinhalten. Auf Basis der Messdaten werden Klassifikatoren trainiert, die
-                                anschließend die verschiedenen Fehlerszenarien an den verfahrenstechnischen Anlagen erkennen sollen.
-                                <br>
-                                <br>
-                                <b>Note</b> <br>
-                                1,0
-                                <br>
-                                <br>
-                                <b>Betreuer</b> <br>
-                                Dr. Martin Weickgenannt (Dürr), Dr. Simon Alt (Dürr), Nico Schwan (DHBW Stuttgart, Thales)
+                  <button class="accordion active">Bachelorarbeit (2017) - Dürr Systems AG, Abteilung: Smart Data Analytics</button>
+                  <div class="accordion-panel" style="max-height: 100%;">
+                    <div class="accordion-section">
+                      <div class="accordion-section-title">Titel</div>
+                      <div class="accordion-section-text">Untersuchung von Konzepten zur selbstlernenden Fehlerdiagnose am Beispiel einer verfahrenstechnischen Anlage</div>
+                    </div>
+                    <div class="accordion-section">
+                      <div class="accordion-section-title">Kurzbeschreibung</div>
+                      <div class="accordion-section-text">
+                        In dieser Bachelorarbeit werden Modelle zur automatisierten Erkennung von Fehlern in verfahrenstechnischen Anlagen entwickelt und an Beispielprozessen getestet. Für die betrachtete
+                        Anwendung werden ein Entscheidungsbaum, ein Random Forest und ein Neuronales Netz zur
+                        Fehlererkennung eingesetzt und hinsichtlich ihrer Genauigkeit und Effizienz bewertet. Grundlage der betrachteten maschinellen Lernverfahren sind historische Messdaten, welche die zu
+                        erkennenden Fehler beinhalten. Auf Basis der Messdaten werden Klassifikatoren trainiert, die
+                        anschließend die verschiedenen Fehlerszenarien an den verfahrenstechnischen Anlagen erkennen sollen.
+                      </div>
+                    </div>
+                    <div class="accordion-section">
+                      <div class="accordion-section-title">Note</div>
+                      <div class="accordion-section-text">1,0</div>
+                    </div>
+                    <div class="accordion-section">
+                      <div class="accordion-section-title">Betreuer</div>
+                      <div class="accordion-section-text">Dr. Martin Weickgenannt (Dürr), Dr. Simon Alt (Dürr), Nico Schwan (DHBW Stuttgart, Thales)</div>
+                    </div>
+                    
+                    <p class="note">Hinweis: Die Arbeit unterliegt einem Sperrvermerk und ist deshalb nicht der Allgemeinheit zugänglich.</p>
+                  </div>
 
-                                <br>
-                                <br>
-                                <p class="note">Hinweis: Die Arbeit unterliegt einem Sperrvermerk und ist deshalb nicht der Allgemeinheit zugänglich.</p>
-                            </div>
-                          </div>
+                    <button class="accordion">Studienarbeit (2016) - Dürr Systems AG, Abteilung: HMI New Business</button>
+                    <div class="accordion-panel">
+                      <div class="accordion-section">
+                        <div class="accordion-section-title">Titel</div>
+                        <div class="accordion-section-text">Untersuchung des Internetprotokolls MQTT im Hinblick auf die Verwendung in der Dürr Visualisierungsplattform</div>
+                      </div>
+                      <div class="accordion-section">
+                        <div class="accordion-section-title">Kurzbeschreibung</div>
+                        <div class="accordion-section-text">
+                          Dürr verwendet seit 2002 ein verteiltes System zur Steuerung von Anlagenteilen in Automobilwerken.
+                          Das System arbeitet mit dem eigens entwickelten DECP Übertragungsprotokoll (Dürr Emos Communication Protocol).
+                          Ziel dieser Arbeit ist es, das offene Übertragungsprotokoll MQTT (Message Queue Telemetry Transport) zu untersuchung 
+                          und mit dem bestehenden DECP zu vergleichen.
                         </div>
-                        <div class="card">
-                          <div class="card-header" id="headingThree">
-                            <h2 class="mb-0">
-                              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                Studienarbeit (2016) - Dürr Systems AG, Abteilung: HMI New Business
-                              </button>
-                            </h2>
-                          </div>
-                          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-                            <div class="card-body">
-                                <b>Titel</b> <br>
-                                Untersuchung des Internetprotokolls MQTT im Hinblick auf die Verwendung in der Dürr Visualisierungsplattform
-                                <br>
-                                <br>
-                                <b>Kurzbeschreibung</b> <br>
-                                Dürr verwendet seit 2002 ein verteiltes System zur Steuerung von Anlagenteilen in Automobilwerken.
-                                Das System arbeitet mit dem eigens entwickelten DECP Übertragungsprotokoll (Dürr Emos Communication Protocol).
-                                Ziel dieser Arbeit ist es, das offene Übertragungsprotokoll MQTT (Message Queue Telemetry Transport) zu untersuchung 
-                                und mit dem bestehenden DECP zu vergleichen.
-                                <br>
-                                <br>
-                                <b>Note</b> <br>
-                                1,2
-                                <br>
-                                <br>
-                                <b>Betreuer</b> <br>
-                                Dr. Ralf Schurer (Dürr)
-
-                                <br>
-                                <br>
-                                <p class="note">Hinweis: Die Arbeit unterliegt einem Sperrvermerk und ist deshalb nicht der Allgemeinheit zugänglich.</p>
-                            </div>
-                          </div>
-                        </div>
+                      </div>
+                      <div class="accordion-section">
+                        <div class="accordion-section-title">Note</div>
+                        <div class="accordion-section-text">1,2</div>
+                      </div>
+                      <div class="accordion-section">
+                        <div class="accordion-section-title">Betreuer</div>
+                        <div class="accordion-section-text">Dr. Ralf Schurer (Dürr)</div>
+                      </div>
+                      
+                      <p class="note">Hinweis: Die Arbeit unterliegt einem Sperrvermerk und ist deshalb nicht der Allgemeinheit zugänglich.</p>
                     </div>
                 </div>
             </div>
@@ -204,4 +179,6 @@
             <a href="impressum.html">Impressum</a>
         </div>
     </footer>
+
+    <script src="scripts/accordion.js"></script>
 </html>

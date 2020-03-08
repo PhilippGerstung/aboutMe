@@ -34,3 +34,12 @@
     overflow: hidden;
     transition: max-height 0.2s ease-out;
   }
+
+  .accordion-section{
+    margin-top: 15px;
+  }
+  
+  /* Überschriften innerhalb des Accordions */
+  .accordion-section-title{
+    font-weight: bold;
+  }
