@@ -1,0 +1,48 @@
+- Embedded Engineering
+    - VHDL Projekt mit TNG 
+    - CAN Projekt
+- Machine Learning und digitale Signalverarbeitung
+    - Als Softwareentwickler bei Dürr
+        - Verschiedene Algorithmen zur Fehlererkennung an 
+    
+    - Bachelorarbeit im Bereich Signalverarbeitung und Klassifikation
+        - Clusterverfahren (KNN)
+        - Künstliche Neuronale Netze
+        - Entscheidungsbäume
+        - Random Forest
+        - Programmiersprache R und Matlab
+    - Semesterprojekte
+        - Bildsegmentierung mit CNN (UNET) (Python + Keras + Tensorflow)
+        - 3D-Bounding Box auf Basis eines 2D-Eingangsbildes (Python + Keras + Tensorflow)
+        - Künstliche Datengenerierung mit 3D-Scanner und Unreal-Engine
+        - Objekterkennung mithilfe von Ultraschallsensoren bei KFZ (Theoretischer Versuchsaufbau, Matlab)
+    - Vorlesung
+        - Vortrainierte Netze
+        - Rekurrente Neuronale Netze
+        - LSTM
+        - Data Augmentation zur Erweiterung des Datensatzes
+        - Clusterverfahren
+            - Hierarchisches Clustern
+            - k-Means
+            - Gaussian Mixture Models
+        - Digitale Signalverarbeitung  
+            - Adaptive Filter
+            - Wiener Filter
+            - Matched Filter
+            - Kalman Filter
+
+- Scrum (13 wöchiges Training)
+
+- Software Development
+
+- Sprachen
+    - Deutsch (Muttersprache)
+    - Englisch (Verhandlungssicher)
+
+Weitere
+- Security
+    - Erfahrung AES und RSA
+    - Angriffe (CPA) auf AES, RSA in Pyhton implementiert
+    - Sichere Benutzerverwaltung
+- Cloud
+    - Erfahrungen mit Azure und Google Cloud Plattform
