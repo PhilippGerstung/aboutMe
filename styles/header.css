@@ -16,7 +16,7 @@
 /* For the parallax header image */
 .parallax-image {
     /* The image used */
-    background-image: url("/assets/background-architecture.jpg");
+    background-image: url("../assets/background-architecture.jpg");
   
     /* Set a specific height */
     height: 400px;
