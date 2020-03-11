@@ -9,6 +9,7 @@
     position: relative;
     max-width: 1200px;
     margin: 0 auto;
+    width: 90%;
   }
 
   .timeline-heading{
@@ -107,6 +108,15 @@
   
   /* Media queries - Responsive timeline on screens less than 600px wide */
   @media screen and (max-width: 600px) {
+    .content-area{
+      overflow-x: hidden;
+    }
+    
+    .timeline{
+      margin: 0;
+      width: 80%;
+    }
+    
     /* Place the timelime to the left */
     .timeline::after {
     left: 31px;
