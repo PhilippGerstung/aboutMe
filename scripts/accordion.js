@@ -23,10 +23,4 @@ document.addEventListener('DOMContentLoaded', function () {
     });
     if(acc[i].dataset.default === "open") toggleAccordion(acc[i]);
   }
-
-  // Scroll to Top when clicking on the top left name
-  document.getElementById("header-area-name").addEventListener("click", function(){
-    document.body.scrollTop = 0; // For Safari
-    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-  });
 }, false);
