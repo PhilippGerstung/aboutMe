@@ -114,4 +114,8 @@
     #top-area-mobile{
         display: block;
     }
+
+    #header-area-links{
+        display: none;
+    }
 }
