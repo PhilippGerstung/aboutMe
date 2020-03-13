@@ -13,14 +13,12 @@ function toggleAccordion(elmnt){
 
 
 
-document.addEventListener('DOMContentLoaded', function () {
-  var acc = document.getElementsByClassName("accordion");
-  var i;
+var acc = document.getElementsByClassName("accordion");
+var i;
 
-  for (i = 0; i < acc.length; i++) {
-    acc[i].addEventListener("click", function() {
-      toggleAccordion(this);
-    });
-    if(acc[i].dataset.default === "open") toggleAccordion(acc[i]);
-  }
-}, false);
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    toggleAccordion(this);
+  });
+  if(acc[i].dataset.default === "open") toggleAccordion(acc[i]);
+}
