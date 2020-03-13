@@ -49,6 +49,16 @@
     margin-top: 40%;
 }
 
+#top-area-card-external-links{
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 20%;
+}
+
+.top-area-card-link-icon{
+    margin-right: 30%;
+}
+
 #top-area-mobile{
     display: none;
     text-align: center;
