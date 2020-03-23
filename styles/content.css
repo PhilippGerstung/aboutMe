@@ -108,6 +108,10 @@
   
   /* Media queries - Responsive timeline on screens less than 600px wide */
   @media screen and (max-width: 600px) {
+    body{
+      overflow-x: none;
+    }
+
     .content-area{
       overflow-x: hidden;
     }

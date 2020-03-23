@@ -3,10 +3,17 @@
 } */
 html{
     font-family: 'Open Sans', sans-serif;
+    scroll-behavior: smooth;
 }
 
 body{
     margin: 0;
+}
+
+a{
+    color: rgb(44, 190, 226);
+    font-weight: bold;
+    text-decoration: none;
 }
 
 .hidden{
